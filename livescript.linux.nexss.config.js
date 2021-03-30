@@ -7,7 +7,7 @@ const sudo = os.sudo();
 languageConfig.compilers = {
   livescript: {
     install: os.replacePMByDistro(`${sudo}npm install --global coffeescript`),
-    command: "coffee",
+    command: "lsc",
     args: "<file>", //
     help: ``,
   },
